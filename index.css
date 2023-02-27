@@ -339,11 +339,11 @@ video{
 
 
 @media screen and (max-width:600px){
-    /* .navbar{
-        padding: 4px 6px;
-    } */
+    .navbar{
+        padding: 4px 9px;
+    }
     .first{
-        height: 100vh;
+        height: 64vh;
     }
     .navbar img{
         width: 100px;
@@ -368,14 +368,14 @@ video{
         flex-direction: column;
     }
     .search input{
-        width: 400px;
+        width: 340px;
         padding: 8px 8px;
         font-size: 18px;
         margin-bottom: 12px;
     }
     .search h1{
-        font-size: 15px;
-        padding: 8px 8px;
+        font-size: 17px;
+        padding: 10px 4px;
         background-color:rgb(206, 19, 19);
         width: 150px;
         text-align: center;
@@ -391,15 +391,23 @@ video{
     }
     .one{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .one h1{
         font-size: 30px;
     }
     .one h2{
         font-size: 19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
     .two video{
-        width: 400px;
+        width: 300px;
     }
     .three{
         display: flex;
@@ -410,26 +418,32 @@ video{
         width: 100%;
     }
     .three img{
-        width: 400px;
+        width: 300px;
     }
     .three video{
-        width: 400px;
+        width: 300px;
     }
     .title2{
+        width: 80%;
         margin-top: 0px;
-        margin-bottom: 80px;
+    }
+    .title2 h1{
+        font-size: 30px;
+        padding-top: 0px;
+        /* margin-top: 0px;
+        margin-bottom: 80px; */
+        margin: 0px;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content:center;
         align-items: center;
     }
-    .title2 h1{
-        font-size: 30px;
-    }
+
     .title2 h2{
         font-size: 19px;
         /* padding: 0px 40px; */
+        padding-bottom: 34px;
     }
     .fourth{
         display: flex;
@@ -454,16 +468,18 @@ video{
         font-size: 19px;
     }
     .fourth div video{
-        width: 400px;
+        width: 300px;
+        margin-bottom: 30px;
     }
     .fifth{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 38px 20px;
     }
     .fifth img{
-        width: 400px;
+        width: 300px;
     }
     .one2{
         width: 70%;
@@ -476,29 +492,29 @@ video{
         font-size: 19px;
     }
     .sixth h1{
-        font-size: 30px;
+        font-size: 23px;
     }
     .two2{
-        width: 420px;
+        width: 320px;
         font-size: 20px;
         padding: 6px 9px;
     }
     .sixth h3{
-        font-size: 13px;
+        font-size: 10px;
     }
     .search2{
         display: flex;
         flex-direction: column;
     }
     .search2 input{
-        width: 400px;
+        width: 340px;
         padding: 8px 8px;
         font-size: 18px;
         margin-bottom: 12px;
     }
     .search2 h1{
-        font-size: 15px;
-        padding: 8px 8px;
+        font-size: 17px;
+        padding: 10px 4px;
         background-color:rgb(206, 19, 19);
         width: 150px;
         text-align: center;
@@ -512,7 +528,17 @@ video{
     }
     .sixth .two3{
         width: 318px;
-        font-size: 20px;
-        
+        font-size: 20px; 
+    }
+    .seventh{
+        padding: 30px 20px;
+        font-size: 8px;
+    }
+    .one3 .h1{
+        margin-left: 0px;
+    }
+    .english2{
+        font-size: 11px;
+        padding: 3px 0px;
     }
 }
