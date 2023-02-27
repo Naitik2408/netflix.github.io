@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.first{
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url('netflix3.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 4px 40px;
+    align-items: center;
+}
+.forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.for{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* width: 280px; */
+    display: flex;
+    flex-direction: column;
+    /* padding: 70px 60px; */
+    padding-top: 70px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 160px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.for h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 37px;
+    margin-bottom: 45px;
+}
+.for input{
+    margin: 10px 0px;
+    padding: 12px 9px;
+    font-size: 17px;
+    background-color: rgb(64, 64, 64);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.for button{
+    background-color: rgb(206, 19, 19);
+    font-size: 16px;
+    color: white;
+    border: none;
+    padding: 10px 0px;
+    margin-top: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.check{
+    display: flex;
+    color: rgb(152, 152, 152);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    font-size: 13px;
+}
+.check p{
+    cursor: pointer;
+}
+.check p:hover{
+    text-decoration: underline;
+}
+.check .che a{
+    text-decoration: none;
+    color: rgb(152, 152, 152);
+}
+.new_to{
+    color: rgb(152, 152, 152);
+    font-size: 15px;
+}
+.new_to a{
+    margin-left: 6px;
+    text-decoration: none;
+    color: white;
+}
+.new_to a:hover{
+    text-decoration: underline;
+}
+.capta{
+    color: rgb(152, 152, 152);
+    margin-top: 39px;
+    font-size: 13px;
+}
+.footer{
+    background-color:  rgba(0, 0, 0, 0.7);
+    padding: 50px 150px;
+    color: gray;
+    font-size: 15px;
+    margin-top: 150px;
+}
+.footer p{
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+.footer p span:hover{
+    text-decoration: underline;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.foot ul{
+    list-style: none;
+}
+.foot ul li{
+    margin: 14px 0px;
+    cursor: pointer;
+}
+.foot ul li:hover{
+    text-decoration: underline;
+}
+.foot ul li a{
+    text-decoration: none;
+    color: rgb(152, 152, 152);
+}
+.english2{
+    border-style: solid;
+    font-size: 20px;
+    padding: 4px 9px;
+    border-color:rgb(185, 185, 185);
+    border-width: 0.3px;
+    cursor: pointer;
+    /* margin-top: 100px; */
+    background: linear-gradient(rgba(0,0,0),(rgba(0,0,0)));
+    text-decoration: none;
+}
+.english2 i{
+    margin: 0px 5px;
+    text-decoration: none;
+}
+@media screen and (max-width:600px){
+    .navbar img{
+        width: 100px;
+    }
+    .forms{
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .for h1{
+        font-size: 25px;
+    }
+    .forms input{
+        font-size: 12px;
+        padding: 12px 9px;
+    }
+    button{
+        font-size: 14px;
+        padding:9px 7px;
+    }
+    .check{
+        font-size: 12px;
+    }
+    .new_to{
+        font-size: 13px;
+    }
+    .capta{
+        font-size: 13px;
+    }
+    .footer{
+        padding: 30px 30px;
+    }
+}

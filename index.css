@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.first{
+    background-image: linear-gradient(rgba(0,0,0,0.70),rgba(0,0,0,0.70)),url('netflix3.png');
+    background-size: cover;
+    width: 100%;
+    height: 130vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 4px 40px;
+    align-items: center;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 0px 12px;
+    border-radius: 3px;
+}
+.english span{
+    border-style: solid;
+    padding: 6px 8px;
+    border-color: white;
+    border-width: 0.7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0,0,0),(rgba(0,0,0)));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.english i{
+    margin: 0px 5px;
+}
+.subtitle{
+    background-color: gray;
+    margin-top: 3px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    /* opacity: 0; */
+    display: none;
+}
+.subtitle p{
+    padding: 3px 32px;
+
+}
+.subtitle p:hover{
+    background-color: rgb(64, 118, 254);
+}
+.subtitle a{
+    text-decoration: none;
+    color: white;
+}
+.sign span{
+    background-color: rgb(206, 19, 19);
+    padding: 6px 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.sign a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    color: rgb(250, 220, 220);
+    justify-content: center;
+    margin-top: 90px;
+    align-items: center;
+    text-align: center;
+}
+.title h1{
+    font-size: 53px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+}
+.title h3{
+    font-size: 25px;
+}
+.title h5{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.search input{
+    width: 480px;
+    padding: 14px 14px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+}
+.search h1{
+    font-size: 26px;
+    padding: 14px 14px;
+    background-color:rgb(206, 19, 19);
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.search h1:hover{
+    background-color: rgb(241, 17, 17);
+}
+.search a{
+    text-decoration: none;
+    color: white;
+}
+/* page one completed.........................................  */
+hr{
+    width: 100%;
+    height: 11px;
+    background-color: rgb(87, 85, 85);
+    border: none;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 210px 20px;
+}
+.one{
+    width: 35%;
+    padding: 30px 40px;
+}
+.one h1{
+    font-size: 49px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0px;
+}
+.one h2{
+    font-size: 23px;
+}
+video{
+    border-radius: 7px;
+}
+/* third page............................................  */
+.three{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding-top: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+}
+.vid{
+    display: flex;
+    flex-direction: column;
+}
+.title2{
+    width: 49%;
+    margin-top: 60px;
+}
+.title2 h1{
+    font-size: 49px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0px;
+}
+.title2 h2{
+    font-size: 23px;
+}
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+    padding: 130px 20px;
+}
+.one1{
+    width: 40%;
+    padding: 50px 40px;
+}
+.one1 h1{
+    font-size: 49px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0px;
+}
+.one1 h2{
+    font-size: 23px;
+}
+.fifth{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 130px 20px;
+}
+.one2 h1{
+    font-size: 49px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0px;
+}
+.one2 h2{
+    font-size: 23px;
+}
+.one2{
+    width: 40%;
+    padding: 50px 40px;
+}
+.sixth{
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 60px 0px;
+}
+.sixth h1{
+    font-size: 49px;
+    letter-spacing: 1px;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 0px;
+}
+.two2{
+    background-color: rgb(71, 70, 70);
+    margin-top: 16px;
+    font-size: 28px;
+    padding: 13px 60px;
+    width: 700px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.two3{
+    background-color: rgb(71, 70, 70);
+    margin-top: 2px;
+    font-size: 28px;
+    padding: 13px 60px;
+    width: 700px;
+    color: white;
+    cursor: pointer;
+    display: none;
+    justify-content: space-between;
+}
+.two span{
+    color: white;
+    background-color: red;
+}
+.search2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 19px;
+}
+.search2 input{
+    width: 480px;
+    padding: 14px 14px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+}
+.search2 h1{
+    font-size: 26px;
+    padding: 14px 14px;
+    background-color:rgb(206, 19, 19);
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+}
+.search2 a{
+    text-decoration: none;
+    color: white;
+}
+.seventh{
+    color: rgb(185, 185, 185);
+    background-color: black;
+    padding: 120px 30px;
+}
+.h1{
+    margin-left: 83px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.h2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    cursor: pointer;
+}
+.h2 ul{
+    list-style: none;
+}
+.h2 ul li{
+    margin: 17px 0px;
+    cursor: pointer;
+}
+.h2 ul li:hover{
+    text-decoration: underline;
+}
+.h2 ul li a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+.english2{
+    border-style: solid;
+    font-size: 20px;
+    padding: 8px 9px;
+    border-color:rgb(185, 185, 185);
+    border-width: 0.3px;
+    cursor: pointer;
+    margin-top: 70px;
+    background: linear-gradient(rgba(0,0,0),(rgba(0,0,0)));
+    text-decoration: none;
+}
+.english2 i{
+    margin: 0px 5px;
+    text-decoration: none;
+}
+.h1 span:hover{
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width:600px){
+    /* .navbar{
+        padding: 4px 6px;
+    } */
+    .first{
+        height: 100vh;
+    }
+    .navbar img{
+        width: 100px;
+    }
+    .english span{
+        font-size: 13px;
+    }
+    .sign span{
+        font-size: 14px;
+    }
+    .title h1{
+        font-size: 28px;
+    }
+    .title h3{
+        font-size: 17px;
+    }
+    .title h5{
+        font-size: 12px;
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+    }
+    .search input{
+        width: 400px;
+        padding: 8px 8px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .search h1{
+        font-size: 15px;
+        padding: 8px 8px;
+        background-color:rgb(206, 19, 19);
+        width: 150px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .second{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 40px;
+        padding-bottom: 40px;
+    }
+    .one{
+        width: 100%;
+    }
+    .one h1{
+        font-size: 30px;
+    }
+    .one h2{
+        font-size: 19px;
+    }
+    .two video{
+        width: 400px;
+    }
+    .three{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+    .three img{
+        width: 400px;
+    }
+    .three video{
+        width: 400px;
+    }
+    .title2{
+        margin-top: 0px;
+        margin-bottom: 80px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .title2 h1{
+        font-size: 30px;
+    }
+    .title2 h2{
+        font-size: 19px;
+        /* padding: 0px 40px; */
+    }
+    .fourth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .one1{
+        width: 80%;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .fourth .one1 h1{
+        font-size: 30px;
+
+    }
+    .fourth .one1 h2{
+        font-size: 19px;
+    }
+    .fourth div video{
+        width: 400px;
+    }
+    .fifth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fifth img{
+        width: 400px;
+    }
+    .one2{
+        width: 70%;
+    }
+    .one2 h1{
+        font-size: 30px;
+        width: 100%;
+    }
+    .one2 h2{
+        font-size: 19px;
+    }
+    .sixth h1{
+        font-size: 30px;
+    }
+    .two2{
+        width: 420px;
+        font-size: 20px;
+        padding: 6px 9px;
+    }
+    .sixth h3{
+        font-size: 13px;
+    }
+    .search2{
+        display: flex;
+        flex-direction: column;
+    }
+    .search2 input{
+        width: 400px;
+        padding: 8px 8px;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .search2 h1{
+        font-size: 15px;
+        padding: 8px 8px;
+        background-color:rgb(206, 19, 19);
+        width: 150px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .subtitle{
+        font-size: 12px;
+    }
+    .subtitle p{
+        padding: 2px 20.5px;
+    }
+    .sixth .two3{
+        width: 318px;
+        font-size: 20px;
+        
+    }
+}
